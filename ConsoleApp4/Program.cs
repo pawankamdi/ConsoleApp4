@@ -18,18 +18,20 @@ namespace ConsoleApp4
             //    Console.ReadLine();
             Console.WriteLine("Please entre the number");
             int input = Convert.ToInt32(Console.ReadLine());
-            if (input == 10)
-            {
-                Console.WriteLine("TEN");
-            }
-            else if(input ==20)
-            {
-                Console.WriteLine("Twenty");
-            }
-            else
-            {
-                Console.WriteLine("Not Equql");
-            }
+            String result = (input == 10) ? "ten" : (input == 20) ? "Twenty" : "Not 10 or 20";
+            Console.WriteLine(result);
+            //if (input == 10)
+            //{
+            //    Console.WriteLine("TEN");
+            //}
+            //else if(input ==20)
+            //{
+            //    Console.WriteLine("Twenty");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Not Equql");
+            //}
             Console.ReadLine();
 
         }
