@@ -16,10 +16,20 @@ namespace ConsoleApp4
             //    String Lastname = Console.ReadLine();
             //    Console.WriteLine("Full Name : {0} {1}", Firstname, Lastname);
             //    Console.ReadLine();
-            Console.WriteLine("Please entre the number");
-            int input = Convert.ToInt32(Console.ReadLine());
-            String result = (input == 10) ? "ten" : (input == 20) ? "Twenty" : "Not 10 or 20";
-            Console.WriteLine(result);
+            //Console.WriteLine("Please entre the number");
+            //int input = Convert.ToInt32(Console.ReadLine());
+            //switch (input)
+            //{
+            //    case 10:
+            //        Console.WriteLine("Ten");
+            //        break;
+
+            //    case 20:
+            //        Console.WriteLine("Tewenty");
+            //        break;
+            //}
+            //String result = (input == 10) ? "ten" : (input == 20) ? "Twenty" : "Not 10 or 20";
+            //Console.WriteLine(result);
             //if (input == 10)
             //{
             //    Console.WriteLine("TEN");
@@ -32,6 +42,18 @@ namespace ConsoleApp4
             //{
             //    Console.WriteLine("Not Equql");
             //}
+            //int i = 1;
+            //do
+            //{
+            //    Console.WriteLine("Hello World");
+            //    i++;
+            //}
+            //while ((i <= 10));
+            int i;
+            for (i = 1; i <= 10; i++)
+            {
+                Console.WriteLine("Hello World");
+            }
             Console.ReadLine();
 
         }
